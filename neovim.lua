@@ -4,7 +4,6 @@ return {
 		lazy = false,
 		priority = 1000,
 		config = function()
-			local p = require("poimandres.palette")
 			require("poimandres").setup({
 				-- leave this setup function empty for default config
 				-- or refer to the configuration section
